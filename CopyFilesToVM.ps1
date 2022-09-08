@@ -1,21 +1,21 @@
 ﻿$params = @{
-    VMName = "GPUPV"
-    SourcePath = "C:\Users\james\Downloads\Win11_English_x64.iso"
+    VMName = "School"
+    SourcePath = "D:\Downloads\Win11_EnglishInternational_x64v1.iso"
     Edition    = 6
     VhdFormat  = "VHDX"
     DiskLayout = "UEFI"
-    SizeBytes  = 40GB
+    SizeBytes  = 64GB
     MemoryAmount = 8GB
-    CPUCores = 4
+    CPUCores = 6
     NetworkSwitch = "Default Switch"
     VHDPath = "C:\Users\Public\Documents\Hyper-V\Virtual Hard Disks\"
     UnattendPath = "$PSScriptRoot"+"\autounattend.xml"
-    GPUName = "AUTO"
+    GPUName = "NVIDIA GeForce GTX 1060 6GB"
     GPUResourceAllocationPercentage = 50
     Team_ID = ""
     Key = ""
-    Username = "GPUVM"
-    Password = "CoolestPassword!"
+    Username = "marc"
+    Password = "kekw"
     Autologon = "true"
 }
 
